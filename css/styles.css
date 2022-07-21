@@ -28,13 +28,14 @@ header
 }
 header.sticky
 {
-  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .NavBar {
  display: flex;
  align-items: center;
  justify-content: space-between;
- background-color: #CCCCC6;
+ background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
  padding: 0.538rem;
  border-radius: 27px;
  margin-top: 10px;
